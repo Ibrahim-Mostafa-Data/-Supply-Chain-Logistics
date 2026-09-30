@@ -4,7 +4,7 @@ An end-to-end Supply Chain & Logistics Analytics project leveraging **Python** f
 
 ---
 
-## 👨‍‍💻 Project Overview
+## 👨‍💻 Project Overview
 * **Data Analyst:** Ebrahim Mostafa
 * **Tools Used:** Python | Power BI | SQL
 * **Project Type:** Supply Chain, Logistics, Sales & Customer Analytics
@@ -36,6 +36,10 @@ The goal of this project is to evaluate supply chain efficiency, logistics perfo
   * Direct interactive buttons to jump into Overview, Sales & Orders, Customer Analysis, Product & Profitability, and Delivery & Supply Chain pages.
   * Direct developer contact links (LinkedIn & GitHub).
 
+![Home Page](Home.png)
+
+---
+
 ### 2. 📊 Overview Page
 * **Purpose:** High-level executive overview of global business performance and high-impact operational metrics.
 * **Key Visuals & Metrics:**
@@ -45,6 +49,10 @@ The goal of this project is to evaluate supply chain efficiency, logistics perfo
   * **Total Sales by Department Name:** Horizontal bar chart identifying Fan Shop ($17,114K) and Apparel ($7,976K) as top revenue generators.
   * **Total Sales by Market:** Regional bar chart showing Europe ($10.9M) and LATAM ($10.3M) leading global sales.
   * **Total Sales by Category Name:** Category performance led by Fishing ($6,930K) and Cleats ($4,432K).
+
+![Overview Page](Overview.png)
+
+---
 
 ### 3. 📦 Sales & Orders Page
 * **Purpose:** Deep dive into order volumes, average order values, shipping class distributions, and customer segment revenue contribution.
@@ -56,6 +64,10 @@ The goal of this project is to evaluate supply chain efficiency, logistics perfo
   * **Top 5 Profit Margin % by Category Name:** Profitability rankings led by Golf Bags & Carts (17%).
   * **Total Profit by Department Name:** Profit breakdown per department with Fan Shop generating $1,834K.
 
+![Sales & Orders Page](Sales%20&%20Orders.png)
+
+---
+
 ### 4. 👥 Customer Analysis Page
 * **Purpose:** Comprehensive analysis of customer demographics, retention rates, acquisition trends, and purchasing patterns.
 * **Key Visuals & Metrics:**
@@ -65,6 +77,10 @@ The goal of this project is to evaluate supply chain efficiency, logistics perfo
   * **Total Customers by Customer Segment:** Distribution across Consumer, Corporate, and Home Office categories.
   * **Avg Sales per Customer by Segment:** Highlighting consistent spending power across segments ($2.86K to $2.74K).
   * **Top 10 Customers by Sales:** Identification of highest-value individual customers.
+
+![Customer Analysis Page](Customer.png)
+
+---
 
 ### 5. 💰 Product & Profitability Page
 * **Purpose:** Financial performance evaluation focused on category margins, shipping mode profits, and top profit-generating inventory.
@@ -76,6 +92,10 @@ The goal of this project is to evaluate supply chain efficiency, logistics perfo
   * **Total Profit by Department Name:** Treemap chart showing relative department profitability led by Fan Shop ($1,834K) and Apparel ($882K).
   * **Top 10 Products by Profit:** Individual product leaderboards led by *Field & Stream Sportsman 16 Gun Fire Safe* ($756K).
 
+![Product & Profitability Page](product%20&%20profitability.png)
+
+---
+
 ### 6. 🚚 Delivery & Supply Chain Page
 * **Purpose:** Monitoring supply chain logistics, identifying delivery delays, evaluating vendor performance, and detecting fulfillment bottlenecks.
 * **Key Visuals & Metrics:**
@@ -86,9 +106,15 @@ The goal of this project is to evaluate supply chain efficiency, logistics perfo
   * **Late Delivery % by Market:** Regional delay identification with Pacific Asia (55.30%) and Europe (54.95%) exhibiting highest late rates.
   * **Late Delivery % by Department:** Departmental delay bottleneck analysis led by Pet Shop (58.94%) and Book Shop (56.54%).
 
+![Delivery & Supply Chain Page](Delivery%20&%20Supply%20Chain.png)
+
+---
+
 ### 7. 💡 Dynamic Tooltips Page
 * **Purpose:** Custom interactive hover tooltips embedded across report visuals to provide quick context summaries without navigating away from active dashboards.
 * **Key Visuals:** Summary cards for Total Sales ($37M), Total Orders (66K), Total Profit ($4M), and Customer Segment percentage splits.
+
+![Tooltips Page](Tooltips.png)
 
 ---
 
