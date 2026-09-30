@@ -147,4 +147,3 @@ The goal of this project is to evaluate supply chain efficiency, logistics perfo
 2. Download the `.pbix` file from this repository.
 3. Open using **Microsoft Power BI Desktop**.
 4. Use the **Home Page** dynamic buttons or sidebar navigation to explore all interactive pages.
-5. 
