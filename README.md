@@ -36,7 +36,7 @@ The goal of this project is to evaluate supply chain efficiency, logistics perfo
   * Direct interactive buttons to jump into Overview, Sales & Orders, Customer Analysis, Product & Profitability, and Delivery & Supply Chain pages.
   * Direct developer contact links (LinkedIn & GitHub).
 
-![Home Page](Home.png)
+![Home Page](Home%20.png)
 
 ---
 
