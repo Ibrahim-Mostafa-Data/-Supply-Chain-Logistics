@@ -1,4 +1,4 @@
-<img width="2335" height="1047" alt="image" src="https://github.com/user-attachments/assets/a81010c0-be8e-4cd9-a4b4-f706eff2af28" /># 🚚 Supply Chain Data Analysis Dashboard
+# 🚚 Supply Chain Data Analysis Dashboard
 
 An end-to-end Supply Chain & Logistics Analytics project leveraging **Python** for data cleaning, transformation, and ETL processes, followed by **Power BI** for interactive data visualization, dynamic business intelligence dashboards, and performance monitoring.
 
