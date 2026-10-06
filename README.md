@@ -76,4 +76,52 @@ The goal of this project is to evaluate supply chain efficiency, logistics perfo
 
 ---
 
-###
+### 6️⃣ 🚚 Delivery & Supply Chain Page
+* **Purpose:** Monitoring supply chain logistics, identifying delivery delays, evaluating vendor performance, and detecting fulfillment bottlenecks.
+* **Key Visuals:** Delay days tracking, delivery status by shipping class, actual vs. scheduled transit times, and regional late delivery rates.
+
+![Delivery & Supply Chain Page](Delivery%20&%20Supply%20Chain.png)
+
+---
+
+### 7️⃣ 💡 Dynamic Tooltips Page
+* **Purpose:** Custom interactive hover tooltips embedded across report visuals to provide quick context summaries without navigating away from active dashboards.
+
+![Tooltips Page](Tooltips.png)
+
+---
+
+## 💡 Recommendations & Actionable Insights (التوصيات الإستراتيجية)
+
+1. **معالجة ارتفاع نسبة تأخير التوصيل (Late Delivery Rate):**
+   * تصل نسبة التأخير في التسليم إلى **55%**، وهو معدل مرتفع جداً يتطلب مراجعة فورية لاتفاقيات مستوى الخدمة (SLAs) مع شركات الشحن والتوصيل.
+   * التركيز على تحسين عمليات التوصيل في الأسواق الأكثر تأثراً بالتأخير، وخاصة منطقتي **Pacific Asia (55.30%)** و **Europe (54.95%)**.
+   * إعادة معالجة وإعادة تنظيم خطوط الشحن والتأخير المرتفع في أقسام مثل **Pet Shop (58.94%)** و **Book Shop (56.54%)**.
+
+2. **تحسين استراتيجيات طرق الشحن (Shipping Modes):**
+   * يعتمد معظم العملاء على الشحن القياسي (**Standard Class**) بحجم طلبات يصل إلى 39K طلب. يجب إعادة توزيع الضغط التشغيلي أو تحفيز العملاء لاستخدام طرق شحن أسرع وأكثر كفاءة.
+   * خيار الشحن في نفس اليوم (**Same Day**) يعاني من معدلات إلغاء وتأخير مرتفعة نسبياً مقارنة بحجمه الصغير، مما يتطلب تقييم الجدوى التشغيلية له.
+
+3. **التركيز على القطاعات والفئات الأكثر إيراداً وربحية:**
+   * قطاع الأفراد (**Consumer**) يمثل النسبة الأكبر بـ **51.91%** من إجمالي المبيعات بقيمة **19M**، لذا يُوصى بتوجيه حملات تسويقية وبرامج ولاء مخصصة لهذا القطاع.
+   * قسم **Fan Shop** يتصدر باقي الأقسام بمبيعات **17,114K** وأرباح **1,834K**، بينما فئة **Fishing** تتصدر الفئات بمبيعات **6,930K** وأرباح **756K**؛ مما يوجب التأكد الدائم من توفر مخزونها وتجنب أي انقطاع.
+
+4. **إعادة هيكلة المنتجات والأقسام ذات الأداء المنخفض:**
+   * أقسام مثل **Book Shop** (مبيعات 13K / أرباح 1K) و **Pet Shop** (مبيعات 42K / أرباح 4K) تحقق عوائد ضئيلة جداً لا تتناسب مع تكاليف التشغيل والتوصيل، مما يقتضي إعادة النظر في تسعيرها أو جدوى استمرارها.
+   * الحد من التكاليف التشغيلية الناتجة عن المنتجات الخاسرة التي تشكل **3%** من إجمالي المنتجات (**Loss-making Products**).
+
+5. **معالجة الانخفاض الموسمي في الربع الأخير (Q4):**
+   * يلاحظ انخفاض ملحوظ في متوسط قيمة الطلب (**Average Order Value**) وإجمالي المبيعات خلال شهري **نوفمبر وديسمبر**. يُوصى بتجهيز عروض وتخفيضات موسمية وحزم منتجات (Bundles) لرفع متوسط قيمة السلة خلال نهاية العام.
+
+---
+
+## 🛠️ How to Run / Open the Dashboard
+1. Execute Python data prep scripts if re-processing raw datasets.
+2. Download the `.pbix` file from this repository.
+3. Open using **Microsoft Power BI Desktop**.
+4. Use the **Home Page** dynamic buttons or sidebar navigation to explore all interactive pages.
+
+---
+
+### 👤 Created By:
+**Ebrahim Mustafa** — *Data Analyst & BI Analyst*
