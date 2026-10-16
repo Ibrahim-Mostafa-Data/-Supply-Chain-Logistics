@@ -15,77 +15,85 @@ An end-to-end Supply Chain & Logistics Analytics project leveraging **Python** f
 The goal of this project is to evaluate supply chain efficiency, logistics performance, delivery statuses, product profitability, and customer purchasing behavior to optimize operational workflows and maximize profit margins.
 
 ### 📊 Executive KPI Summary:
-* **Total Sales:** $37M
-* **Total Orders:** 66K
-* **Total Customers:** 21K
-* **Total Items Sold:** 181K
-* **Total Profit:** $4M
-* **Profit Margin %:** 11%
-* **On-Time Delivery %:** 45.2%
-* **Late Delivery %:** 55%
-* **Average Order Value (AOV):** $559
+- **Total Sales:** \$37M
+- **Total Orders:** 66K
+- **Total Customers:** 21K
+- **Total Items Sold:** 181K
+- **Total Profit:** \$4M
+- **Profit Margin %:** 11%
+- **On-Time Delivery %:** 45.2%
+- **Late Delivery %:** 55%
+- **Average Order Value (AOV):** \$559
 
 ---
 
 ## 🛠️ Tools & Technologies Used
-* **Python (Pandas, NumPy):** Automated data extraction, ETL pipelines, handling missing data, and cleaning.
-* **Power BI:** Multi-page dashboard construction, DAX measures, star schema modeling, and dynamic tooltips.
-* **Figma:** Dashboard wireframing, dark theme visual structure, and UI layout design.
+- **Python (Pandas, NumPy):** Automated data extraction, ETL pipelines, handling missing data, and cleaning.
+- **Power BI:** Multi-page dashboard construction, DAX measures, star schema modeling, and dynamic tooltips.
+- **Figma:** Dashboard wireframing, dark theme visual structure, and UI layout design.
+
+---
+
+## 🏗️ Data Modeling & Architecture
+
+A robust relational data model (Star Schema) was structured inside Power BI to link orders, shipments, products, and customer dimensions efficiently, ensuring optimal query performance and accurate cross-filtering.
+
+![Data Modeling](Data%20Modeling.png)
 
 ---
 
 ## 🗺️ Dashboard Structure & Pages
 
 ### 1️⃣ 🏠 Home Page
-* **Purpose:** High-impact visual landing page providing seamless navigation across all dashboard sections.
-* **Key Features:** Clean UI dark layout featuring project title, core tech stack, and quick navigation.
+- **Purpose:** High-impact visual landing page providing seamless navigation across all dashboard sections.
+- **Key Features:** Clean UI dark layout featuring project title, core tech stack, and quick navigation.
 
 ![Home Page](Home%20.png)
 
 ---
 
 ### 2️⃣ 📊 Overview Page
-* **Purpose:** High-level executive overview of global business performance and high-impact operational metrics.
-* **Key Visuals:** Sales trends by month, delivery status splits, departmental sales, and regional market distribution.
+- **Purpose:** High-level executive overview of global business performance and high-impact operational metrics.
+- **Key Visuals:** Sales trends by month, delivery status splits, departmental sales, and regional market distribution.
 
 ![Overview Page](Overview.png)
 
 ---
 
 ### 3️⃣ 📦 Sales & Orders Page
-* **Purpose:** Deep dive into order volumes, average order values, shipping class distributions, and customer segment revenue contribution.
-* **Key Visuals:** Shipping mode breakdown, monthly AOV trends, customer segment share, and category profit margins.
+- **Purpose:** Deep dive into order volumes, average order values, shipping class distributions, and customer segment revenue contribution.
+- **Key Visuals:** Shipping mode breakdown, monthly AOV trends, customer segment share, and category profit margins.
 
 ![Sales & Orders Page](Sales%20&%20Orders.png)
 
 ---
 
 ### 4️⃣ 👥 Customer Analysis Page
-* **Purpose:** Comprehensive analysis of customer demographics, retention rates, acquisition trends, and purchasing patterns.
-* **Key Visuals:** Geographic customer map, acquisition trends, customer segment spending, and top individual buyers.
+- **Purpose:** Comprehensive analysis of customer demographics, retention rates, acquisition trends, and purchasing patterns.
+- **Key Visuals:** Geographic customer map, acquisition trends, customer segment spending, and top individual buyers.
 
 ![Customer Analysis Page](Customer.png)
 
 ---
 
 ### 5️⃣ 💰 Product & Profitability Page
-* **Purpose:** Financial performance evaluation focused on category margins, shipping mode profits, and top profit-generating inventory.
-* **Key Visuals:** Shipping mode profit split, market profitability funnel, department treemaps, and top profit-driving products.
+- **Purpose:** Financial performance evaluation focused on category margins, shipping mode profits, and top profit-generating inventory.
+- **Key Visuals:** Shipping mode profit split, market profitability funnel, department treemaps, and top profit-driving products.
 
 ![Product & Profitability Page](product%20&%20profitability.png)
 
 ---
 
 ### 6️⃣ 🚚 Delivery & Supply Chain Page
-* **Purpose:** Monitoring supply chain logistics, identifying delivery delays, evaluating vendor performance, and detecting fulfillment bottlenecks.
-* **Key Visuals:** Delay days tracking, delivery status by shipping class, actual vs. scheduled transit times, and regional late delivery rates.
+- **Purpose:** Monitoring supply chain logistics, identifying delivery delays, evaluating vendor performance, and detecting fulfillment bottlenecks.
+- **Key Visuals:** Delay days tracking, delivery status by shipping class, actual vs. scheduled transit times, and regional late delivery rates.
 
 ![Delivery & Supply Chain Page](Delivery%20&%20Supply%20Chain.png)
 
 ---
 
 ### 7️⃣ 💡 Dynamic Tooltips Page
-* **Purpose:** Custom interactive hover tooltips embedded across report visuals to provide quick context summaries without navigating away from active dashboards.
+- **Purpose:** Custom interactive hover tooltips embedded across report visuals to provide quick context summaries without navigating away from active dashboards.
 
 ![Tooltips Page](Tooltips.png)
 
